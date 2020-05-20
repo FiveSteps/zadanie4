@@ -18,13 +18,6 @@ namespace zadanie4
 
             for (int i = 0; i < obj.Count; i++)
             {
-                if (obj[i]) objUpper.Add(obj[i]);
-                Console.Write(objUpper[i] + " | ");
-            }
-            Console.WriteLine();
-
-            for (int i = 0; i < obj.Count; i++)
-            {
                 if (obj[i] is string)
                 {
                     obj.RemoveAt(i);
